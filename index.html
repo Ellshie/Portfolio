@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>devElls Portfolio</title>
+  
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ 
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- typed.js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  
+
+</head>
+<body>
+  <!-- header design -->
+  <div class="headerImage">
+  <header class="header">
+    <a href="index.html"><img src="logo.png" class="logo"></a>
+    
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#index" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home section -->
+  <section class="home" id="index">
+   
+    <div class="home-content">
+    <h3>Hello I'm,</h3>
+    <h1><span class="multiple-text"></span></h1> 
+    <p>Code is my canvas, turning imagination into reality. 
+      As a web developer, I craft digital symphonies, one keystroke 
+      at a time, painting the future in pixels.</p>
+      <a href="#contact" class="btn1">Get In Touch</a>
+    </div>
+  </div>
+  </section>
+ <!-- about section-->
+  
+ <section class="about" id="about">
+  <div class="about-img">
+    <img src="about.gif" alt="">
+  </div>
+
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <p>I’m Erniella Manalansan, known as Ells. 
+      I am web development student with a knack 
+      for transforming ideas into captivating digital 
+      experiences. In the world of web development, 
+      I don't just write code; I craft visual stories 
+      that capture moments, narrate tales, and evoke 
+      emotions. </p>
+
+      <div class="tab-titles">
+        <p class="tab-links active-link" onClick="opentab('education')">Education</p>
+        <p class="tab-links" onClick="opentab('certificates')">Certificates</p>
+        <p class="tab-links" onClick="opentab('SeeMore')">See More</p>
+        <p class="tab-links" id="download-cv">Download CV</p>
+    </div>
+    
+      <div class="tab-contents active-tab" id="education">
+        <ul>
+          <li><span>High School Diploma</span>
+            <br>System Plus College Foundation</li>
+            <li><span>Bachelor of Science in Information Technology with Area of specialization in Web Development</span>
+              <br>Holy Angel University</li>
+        </ul>
+      </div>
+
+      <div class="tab-contents" id="certificates">
+        <ul>
+          <li><span>SEO Certified (2023)<a href="https://drive.google.com/file/d/1g1bVVVSMhAeJT4kbI8GtQwRm_J17TDq6/view?usp=sharing">
+              <i class='bx bx-link-external' style="color: white;"></i></span></a>
+            <br>HubSpot Academy</li>
+            <li><span>HubSpot SEO II Certified (2023)<a href="https://drive.google.com/file/d/1JfX-Zmrr1uSfbaUaD-1tb5DEqv3e8qLQ/view?usp=sharing">
+              <i class='bx bx-link-external' style="color: white;"></i></span></a></span>
+              <br>HubSpot Academy</li>
+            <li><span>Red Hat System Administration Certificate of Attendance (2022)<a href="https://drive.google.com/file/d/1aMRrJf4SR901ix0kLjZYv2zQzwled58x/view?usp=sharing">
+              <i class='bx bx-link-external' style="color: white;"></i></span></a></span>
+              <br>Red Hat Academy</li>
+        </ul>
+      </div>
+
+      <div class="tab-contents" id="SeeMore">
+        <ul>
+          <li><span>Statement of Work Philosophy</span>
+            <br>Learning, Innovating, Empowering: As a web development student, my philosophy is simple - to learn continuously, innovate collaboratively, and empower users through intuitive design. I approach each project with passion, adaptability, and a commitment to exceeding expectations.</li>
+            <li><span>Transcript of Records<a href="https://drive.google.com/file/d/1P4FymI0kc5nmMabLe2_AieZ8mDa0WkHe/view?usp=drive_link">
+              <i class='bx bx-link-external' style="color: white;"></i></a></span>
+        
+
+        </ul>
+      </div>
+
+    
+  </div>
+</section>
+
+<!-- skills section -->
+<section class="skills" id="skills">
+  <div class="main-text">
+    <h2>My <span>Skills</span></h2>
+  </div>
+
+  <div class="skill-main">
+    <div class="skill-left">
+      <h3>Technical Skills</h3>
+      <div class="skill-bar">
+        <div class="info">
+          <p>HTML</p>
+          <p>70%</p>
+        </div>
+        <div class="bar">
+          <span class="html"></span>
+        </div>
+      </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>CSS</p>
+            <p>70%</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>JAVASCRIPT</p>
+            <p>50%</p>
+          </div>
+          <div class="bar">
+            <span class="javascript"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>VUE.JS</p>
+            <p>45%</p>
+          </div>
+          <div class="bar">
+            <span class="vue"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>WORDPRESS</p>
+            <p>32%</p>
+          </div>
+          <div class="bar">
+            <span class="wordpress"></span>
+          </div>
+        </div>
+      
+    </div>
+
+    <div class="skill-right">
+      <h3>Professional Skills</h3>
+      <div class="professional">
+        <div class="box">
+          <div class="circle" data-dots="50" data-percent="80"></div>
+          <div class="text">
+            <big>80%</big>
+            <medium>Team Work</medium>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="circle" data-dots="50" data-percent="68"></div>
+          <div class="text">
+            <big>68%</big>
+            <medium>Adaptability</medium>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="circle" data-dots="50" data-percent="75"></div>
+          <div class="text">
+            <big>75%</big>
+            <mmedium>Project Management</medium>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="circle" data-dots="50" data-percent="85"></div>
+          <div class="text">
+            <big>85%</big>
+            <medium>Continuous Learning</medium>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="circle" data-dots="50" data-percent="80"></div>
+          <div class="text">
+            <big>80%</big>
+            <medium>Time Management</medium>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="circle" data-dots="50" data-percent="60"></div>
+          <div class="text">
+            <big>60%</big>
+            <small>Communication</small>
+          </div>
+        </div>
+
+      </div> 
+    </div>
+
+  </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    
+  <h2 class="heading">Latest <span>Project</span></h2>
+
+  <div class="portfolio-container">
+
+    <div class="portfolio-box">
+      <img src="blog.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Blog Website</h4>
+        <p>I designed and crafted this WordPress site from start to finish, showcasing my skills in both web design and WordPress development.</p>
+        <a href="https://thekwekkwekdiary.wordpress.com/" target="_blank"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+  
+
+    <div class="portfolio-box">
+      <img src="school.png" alt="">
+      <div class="portfolio-layer">
+        <h4>School Website</h4>
+        <p>Explore my school website design, a solo creation capturing the essence of the institution from concept to execution.</p>
+        <a href="https://ellshie.github.io/riverdale-school-website/" target="_blank"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+  
+    <div class="portfolio-box">
+      <img src="booking.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Web Integration</h4>
+        <p>This is a group project and my role focused on seamless web integration with other applications.</p>
+        <a href="https://grp5-asi.bitbucket.io/" target="_blank"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+   
+    <div class="portfolio-box additional-images"> <!-- Add additional-images class -->
+      <img src="ecommerce.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Ecommerce Website</h4>
+        <p>I enhanced the ecommerce site's UI as a frontend developer in our team project.</p>
+        <a href="https://ellshie.github.io/House-of-Petals/" target="_blank"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+  
+    <div class="portfolio-box additional-images"> <!-- Add additional-images class -->
+      <img src="ping-pong.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Ping-Pong Game</h4>
+        <p>Beat boredom: try my snappy ping-pong game. HTML, CSS, JavaScript fun!</p>
+        <a href="https://ellshie.github.io/Ping-Pong-Game/" target="_blank"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+
+    <div class="portfolio-box additional-images"> <!-- Add additional-images class -->
+      <img src="tictactoe.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Tic-Tac-Toe Game</h4>
+        <p>Experience fun with Tic Tac Toe game – a classic brought to life with simplicity and JavaScript magic.</p>
+        <a href="https://ellshie.github.io/Tic-Tac-Toe/" target="_blank"><i class='bx bx-link-external' ></i></a>
+      </div>
+    </div>
+  </div>
+  <button id="see-more-btn" class="portfolio-btn" type="button">See More</button>
+
+</section>
+<!-- contact section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Get In <span>Touch</span></h2>
+    <p>Contact me and let's bring your ideas to life!</p>
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <h3>Send Message</h3>
+        <form name='submit-to-google-sheet' onsubmit="sendEmail(); reset(); return false;">
+          <div class="form-group">
+            <input type="text" name="name" id='name' placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id='email' placeholder="Your Email">
+          </div>
+          <div class="form-group">
+           <textarea name="message" id='message' placeholder="Your Message"></textarea>
+          </div>
+          <button class="submit" type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><i class='bx bxs-phone' ></i>&nbsp;&nbsp;&nbsp;+63 949 684 7425</p>
+        <p><i class='bx bxl-gmail' ></i>&nbsp;&nbsp;&nbsp;ellagiemanalansan@gmail.com</p>
+        <p><i class='bx bxs-map' ></i>&nbsp;&nbsp;&nbsp;Hermosa, Bataan</p>
+        <br><br><br><br>
+        <div class="soc">
+        <a href="https://www.facebook.com/jeanella.manalansan" target=”_blank”>
+          <i class='bx bxl-meta'></i>
+        </a>
+        <a href="https://www.instagram.com/ej_mnlnsn/" target=”_blank”>
+          <i class='bx bxl-instagram-alt' ></i>
+        </a>
+        <a href="https://www.linkedin.com/in/erniella-manalansan-455581282/" target=”_blank”>
+          <i class='bx bxl-linkedin-square' ></i>
+        </a>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--JS LINK--> 
+<script src="script.js">
+
+</script>
+
+  </body>
+  </html>
