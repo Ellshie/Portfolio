@@ -17,7 +17,7 @@ function opentab(tabname){
 //to download cv
 document.getElementById('download-cv').addEventListener('click', function() {
   
-  var cvUrl = 'https://drive.google.com/file/d/14kRQiuAMz9UaolHa5bVrQVJ2Mj0TJLoa/view?usp=sharing';
+  var cvUrl = 'https://drive.google.com/file/d/16pPcb7Bq4yzIltciENh3I0ijLdPXhD43/view?usp=sharing';
   var cvFileName = 'Creative Resume.pdf'; 
 
   var tempLink = document.createElement('a');
